@@ -168,7 +168,7 @@
     "opn-cli": "^5.0.0",
     "prettier": "^1.18.2",
     "react": "^16.9.0",
-    "react-art": "^16.8.6",
+    "react-art": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-native-storybook-loader": "^1.8.0",
     "react-native-typescript-transformer": "^1.2.12",
