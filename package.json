@@ -142,7 +142,7 @@
     "@types/lodash.kebabcase": "^4.1.6",
     "@types/react": "^16.8.23",
     "@types/react-loadable": "^5.5.0",
-    "@types/react-native": "^0.57.65",
+    "@types/react-native": "^0.60.8",
     "@types/react-test-renderer": "^16.8.2",
     "@types/rtl-detect": "^1.0.0",
     "@types/source-map-support": "^0.5.0",
