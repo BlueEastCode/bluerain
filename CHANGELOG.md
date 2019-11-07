@@ -1,3 +1,18 @@
+# [5.2.0](https://github.com/BlueBaseJS/core/compare/v5.1.0...v5.2.0) (2019-11-07)
+
+### Bug Fixes
+
+-   **semantic release:** set env variable ([698ab43](https://github.com/BlueBaseJS/core/commit/698ab43))
+-   **workflow:** changed environment variable ([5dea463](https://github.com/BlueBaseJS/core/commit/5dea463))
+-   **workflow:** moved environment variables ([d726102](https://github.com/BlueBaseJS/core/commit/d726102))
+-   **workflow:** tokens ([effb3f9](https://github.com/BlueBaseJS/core/commit/effb3f9))
+-   **workflow:** updated token in release ([6aae05f](https://github.com/BlueBaseJS/core/commit/6aae05f))
+-   **workflow:** updated workflows ([4c96897](https://github.com/BlueBaseJS/core/commit/4c96897))
+
+### Features
+
+-   **getComponent:** Now takes components as input ([1d01095](https://github.com/BlueBaseJS/core/commit/1d01095))
+
 # [5.1.0](https://github.com/BlueBaseJS/core/compare/v5.0.2...v5.1.0) (2019-10-01)
 
 ### Features
