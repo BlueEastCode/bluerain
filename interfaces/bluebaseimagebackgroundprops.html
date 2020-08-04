@@ -3,8 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>ThemeProviderState | @bluebase/core</title>
-	<meta name="description" content="">
+	<title>BlueBaseImageBackgroundProps | @bluebase/core</title>
+	<meta name="description" content="Documentation for @bluebase/core">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
 </head>
@@ -13,7 +13,7 @@
 	<div class="tsd-page-toolbar">
 		<div class="container">
 			<div class="table-wrap">
-				<div class="table-cell" id="tsd-search" data-index="../assets/js/search.js" data-base="..">
+				<div class="table-cell" id="tsd-search" data-index="../assets/js/search.json" data-base="..">
 					<div class="field">
 						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
 						<input id="tsd-search-field" type="text" />
@@ -56,21 +56,42 @@
 					<a href="../globals.html">Globals</a>
 				</li>
 				<li>
-					<a href="themeproviderstate.html">ThemeProviderState</a>
+					<a href="bluebaseimagebackgroundprops.html">BlueBaseImageBackgroundProps</a>
 				</li>
 			</ul>
-			<h1>Interface ThemeProviderState</h1>
+			<h1>Interface BlueBaseImageBackgroundProps</h1>
 		</div>
 	</div>
 </header>
 <div class="container container-main">
 	<div class="row">
 		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-comment">
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<a href="#🖼-bluebaseimagebackground" id="🖼-bluebaseimagebackground" style="color: inherit; text-decoration: none;">
+							<h1>🖼 BlueBaseImageBackground</h1>
+						</a>
+					</div>
+					<p>A drop in replacement for React Native&#39;s ImageBackground component.
+					Adds ability to display image stored in BlueBase Asset Registry.</p>
+					<a href="#usage" id="usage" style="color: inherit; text-decoration: none;">
+						<h2>Usage</h2>
+					</a>
+					<pre><code class="language-jsx">&lt;BlueBaseImageBackground resolve=<span class="hljs-string">&quot;Logo&quot;</span>&gt;<span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">Content</span> /&gt;</span></span>&lt;/BlueBaseImageBackground&gt;
+<span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">BlueBaseImageBackground</span> <span class="hljs-attr">resolve</span>=<span class="hljs-string">{[</span>&#x27;<span class="hljs-attr">LogoSquare</span>&#x27;, &#x27;<span class="hljs-attr">Logo</span>&#x27;]}&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">Content</span> /&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">BlueBaseImageBackground</span>&gt;</span></span></code></pre>
+				</div>
+			</section>
 			<section class="tsd-panel tsd-hierarchy">
 				<h3>Hierarchy</h3>
 				<ul class="tsd-hierarchy">
 					<li>
-						<span class="target">ThemeProviderState</span>
+						<span class="tsd-signature-symbol">{}</span>
+						<ul class="tsd-hierarchy">
+							<li>
+								<span class="target">BlueBaseImageBackgroundProps</span>
+							</li>
+						</ul>
 					</li>
 				</ul>
 			</section>
@@ -81,9 +102,8 @@
 						<section class="tsd-index-section ">
 							<h3>Properties</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="themeproviderstate.html#error" class="tsd-kind-icon">error</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="themeproviderstate.html#loading" class="tsd-kind-icon">loading</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="themeproviderstate.html#theme" class="tsd-kind-icon">theme</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="bluebaseimagebackgroundprops.html#children" class="tsd-kind-icon">children</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="bluebaseimagebackgroundprops.html#source" class="tsd-kind-icon">source</a></li>
 							</ul>
 						</section>
 					</div>
@@ -92,32 +112,22 @@
 			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Properties</h2>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="error" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagOptional">Optional</span> error</h3>
-					<div class="tsd-signature tsd-kind-icon">error<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">any</span></div>
+					<a name="children" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> children</h3>
+					<div class="tsd-signature tsd-kind-icon">children<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">ReactNode</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/BlueBaseJS/core/blob/207da6b7/src/themes/ThemeContext.tsx#L31">themes/ThemeContext.tsx:31</a></li>
+							<li>Defined in <a href="https://github.com/BlueBaseJS/core/blob/5ae1de16/src/components/BlueBaseImageBackground/BlueBaseImageBackground.tsx#L26">src/components/BlueBaseImageBackground/BlueBaseImageBackground.tsx:26</a></li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="loading" class="tsd-anchor"></a>
-					<h3>loading</h3>
-					<div class="tsd-signature tsd-kind-icon">loading<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+					<a name="source" class="tsd-anchor"></a>
+					<h3>source</h3>
+					<div class="tsd-signature tsd-kind-icon">source<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">ImageSourcePropType</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/BlueBaseJS/core/blob/207da6b7/src/themes/ThemeContext.tsx#L29">themes/ThemeContext.tsx:29</a></li>
-						</ul>
-					</aside>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="theme" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagOptional">Optional</span> theme</h3>
-					<div class="tsd-signature tsd-kind-icon">theme<span class="tsd-signature-symbol">:</span> <a href="../globals.html#theme" class="tsd-signature-type">Theme</a></div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/BlueBaseJS/core/blob/207da6b7/src/themes/ThemeContext.tsx#L30">themes/ThemeContext.tsx:30</a></li>
+							<li>Defined in <a href="https://github.com/BlueBaseJS/core/blob/5ae1de16/src/components/BlueBaseImageBackground/BlueBaseImageBackground.tsx#L25">src/components/BlueBaseImageBackground/BlueBaseImageBackground.tsx:25</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -136,16 +146,13 @@
 				</ul>
 				<ul class="current">
 					<li class="current tsd-kind-interface">
-						<a href="themeproviderstate.html" class="tsd-kind-icon">Theme<wbr>Provider<wbr>State</a>
+						<a href="bluebaseimagebackgroundprops.html" class="tsd-kind-icon">Blue<wbr>Base<wbr>Image<wbr>Background<wbr>Props</a>
 						<ul>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="themeproviderstate.html#error" class="tsd-kind-icon">error</a>
+								<a href="bluebaseimagebackgroundprops.html#children" class="tsd-kind-icon">children</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="themeproviderstate.html#loading" class="tsd-kind-icon">loading</a>
-							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="themeproviderstate.html#theme" class="tsd-kind-icon">theme</a>
+								<a href="bluebaseimagebackgroundprops.html#source" class="tsd-kind-icon">source</a>
 							</li>
 						</ul>
 					</li>
@@ -161,65 +168,37 @@
 		<h2>Legend</h2>
 		<div class="tsd-legend-group">
 			<ul class="tsd-legend">
-				<li class="tsd-kind-module"><span class="tsd-kind-icon">Module</span></li>
-				<li class="tsd-kind-object-literal"><span class="tsd-kind-icon">Object literal</span></li>
-				<li class="tsd-kind-variable"><span class="tsd-kind-icon">Variable</span></li>
-				<li class="tsd-kind-function"><span class="tsd-kind-icon">Function</span></li>
-				<li class="tsd-kind-function tsd-has-type-parameter"><span class="tsd-kind-icon">Function with type parameter</span></li>
-				<li class="tsd-kind-index-signature"><span class="tsd-kind-icon">Index signature</span></li>
-				<li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
-			</ul>
-			<ul class="tsd-legend">
-				<li class="tsd-kind-enum"><span class="tsd-kind-icon">Enumeration</span></li>
-				<li class="tsd-kind-enum-member"><span class="tsd-kind-icon">Enumeration member</span></li>
-				<li class="tsd-kind-property tsd-parent-kind-enum"><span class="tsd-kind-icon">Property</span></li>
-				<li class="tsd-kind-method tsd-parent-kind-enum"><span class="tsd-kind-icon">Method</span></li>
-			</ul>
-			<ul class="tsd-legend">
-				<li class="tsd-kind-interface"><span class="tsd-kind-icon">Interface</span></li>
-				<li class="tsd-kind-interface tsd-has-type-parameter"><span class="tsd-kind-icon">Interface with type parameter</span></li>
-				<li class="tsd-kind-constructor tsd-parent-kind-interface"><span class="tsd-kind-icon">Constructor</span></li>
-				<li class="tsd-kind-property tsd-parent-kind-interface"><span class="tsd-kind-icon">Property</span></li>
-				<li class="tsd-kind-method tsd-parent-kind-interface"><span class="tsd-kind-icon">Method</span></li>
-				<li class="tsd-kind-index-signature tsd-parent-kind-interface"><span class="tsd-kind-icon">Index signature</span></li>
-			</ul>
-			<ul class="tsd-legend">
-				<li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
-				<li class="tsd-kind-class tsd-has-type-parameter"><span class="tsd-kind-icon">Class with type parameter</span></li>
 				<li class="tsd-kind-constructor tsd-parent-kind-class"><span class="tsd-kind-icon">Constructor</span></li>
 				<li class="tsd-kind-property tsd-parent-kind-class"><span class="tsd-kind-icon">Property</span></li>
 				<li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
-				<li class="tsd-kind-accessor tsd-parent-kind-class"><span class="tsd-kind-icon">Accessor</span></li>
-				<li class="tsd-kind-index-signature tsd-parent-kind-class"><span class="tsd-kind-icon">Index signature</span></li>
 			</ul>
 			<ul class="tsd-legend">
 				<li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited constructor</span></li>
 				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited property</span></li>
 				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited method</span></li>
-				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited accessor</span></li>
 			</ul>
 			<ul class="tsd-legend">
 				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected property</span></li>
 				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected method</span></li>
-				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected accessor</span></li>
 			</ul>
 			<ul class="tsd-legend">
 				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private property</span></li>
 				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private method</span></li>
-				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private accessor</span></li>
 			</ul>
 			<ul class="tsd-legend">
 				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static property</span></li>
-				<li class="tsd-kind-call-signature tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static method</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-interface"><span class="tsd-kind-icon">Property</span></li>
 			</ul>
 		</div>
 	</div>
 </footer>
 <div class="container tsd-generator">
-	<p>Generated using <a href="http://typedoc.org/" target="_blank">TypeDoc</a></p>
+	<p>Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a></p>
 </div>
 <div class="overlay"></div>
 <script src="../assets/js/main.js"></script>
-<script>if (location.protocol == 'file:') document.write('<script src="../assets/js/search.js"><' + '/script>');</script>
 </body>
 </html>

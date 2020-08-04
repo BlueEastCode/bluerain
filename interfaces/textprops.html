@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>TextProps | @bluebase/core</title>
-	<meta name="description" content="">
+	<meta name="description" content="Documentation for @bluebase/core">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
 </head>
@@ -13,7 +13,7 @@
 	<div class="tsd-page-toolbar">
 		<div class="container">
 			<div class="table-wrap">
-				<div class="table-cell" id="tsd-search" data-index="../assets/js/search.js" data-base="..">
+				<div class="table-cell" id="tsd-search" data-index="../assets/js/search.json" data-base="..">
 					<div class="field">
 						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
 						<input id="tsd-search-field" type="text" />
@@ -86,6 +86,7 @@
 						<section class="tsd-index-section ">
 							<h3>Properties</h3>
 							<ul class="tsd-index-list">
+								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="textprops.html#accessibilityactions" class="tsd-kind-icon">accessibility<wbr>Actions</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="textprops.html#accessibilitycomponenttype" class="tsd-kind-icon">accessibility<wbr>Component<wbr>Type</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="textprops.html#accessibilityelementshidden" class="tsd-kind-icon">accessibility<wbr>Elements<wbr>Hidden</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="textprops.html#accessibilityhint" class="tsd-kind-icon">accessibility<wbr>Hint</a></li>
@@ -93,8 +94,10 @@
 								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="textprops.html#accessibilitylabel" class="tsd-kind-icon">accessibility<wbr>Label</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="textprops.html#accessibilityliveregion" class="tsd-kind-icon">accessibility<wbr>Live<wbr>Region</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="textprops.html#accessibilityrole" class="tsd-kind-icon">accessibility<wbr>Role</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="textprops.html#accessibilitystates" class="tsd-kind-icon">accessibility<wbr>States</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="textprops.html#accessibilitystate" class="tsd-kind-icon">accessibility<wbr>State</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="textprops.html#accessibilitytraits" class="tsd-kind-icon">accessibility<wbr>Traits</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="textprops.html#accessibilityvalue" class="tsd-kind-icon">accessibility<wbr>Value</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="textprops.html#accessibilityviewismodal" class="tsd-kind-icon">accessibility<wbr>View<wbr>IsModal</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="textprops.html#accessible" class="tsd-kind-icon">accessible</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="textprops.html#adjustsfontsizetofit" class="tsd-kind-icon">adjusts<wbr>Font<wbr>Size<wbr>ToFit</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="textprops.html#allowfontscaling" class="tsd-kind-icon">allow<wbr>Font<wbr>Scaling</a></li>
@@ -105,6 +108,8 @@
 								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="textprops.html#minimumfontscale" class="tsd-kind-icon">minimum<wbr>Font<wbr>Scale</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="textprops.html#nativeid" class="tsd-kind-icon">nativeID</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="textprops.html#numberoflines" class="tsd-kind-icon">number<wbr>OfLines</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="textprops.html#onaccessibilityaction" class="tsd-kind-icon">on<wbr>Accessibility<wbr>Action</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="textprops.html#onaccessibilityescape" class="tsd-kind-icon">on<wbr>Accessibility<wbr>Escape</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="textprops.html#onaccessibilitytap" class="tsd-kind-icon">on<wbr>Accessibility<wbr>Tap</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="textprops.html#onlayout" class="tsd-kind-icon">on<wbr>Layout</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="textprops.html#onlongpress" class="tsd-kind-icon">on<wbr>Long<wbr>Press</a></li>
@@ -125,13 +130,29 @@
 			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Properties</h2>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
+					<a name="accessibilityactions" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> accessibility<wbr>Actions</h3>
+					<div class="tsd-signature tsd-kind-icon">accessibility<wbr>Actions<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">ReadonlyArray</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">AccessibilityActionInfo</span><span class="tsd-signature-symbol">&gt;</span></div>
+					<aside class="tsd-sources">
+						<p>Inherited from <a href="textprops.html">TextProps</a>.<a href="textprops.html#accessibilityactions">accessibilityActions</a></p>
+						<ul>
+							<li>Defined in node_modules/@types/react-native/index.d.ts:2080</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Provides an array of custom actions available for accessibility.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
 					<a name="accessibilitycomponenttype" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagOptional">Optional</span> accessibility<wbr>Component<wbr>Type</h3>
 					<div class="tsd-signature tsd-kind-icon">accessibility<wbr>Component<wbr>Type<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"none"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"button"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"radiobutton_checked"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"radiobutton_unchecked"</span></div>
 					<aside class="tsd-sources">
-						<p>Inherited from AccessibilityPropsAndroid.accessibilityComponentType</p>
+						<p>Inherited from <a href="textprops.html">TextProps</a>.<a href="textprops.html#accessibilitycomponenttype">accessibilityComponentType</a></p>
 						<ul>
-							<li>Defined in /__w/core/core/node_modules/@types/react-native/index.d.ts:2068</li>
+							<li>Defined in node_modules/@types/react-native/index.d.ts:2234</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -153,9 +174,9 @@
 					<h3><span class="tsd-flag ts-flagOptional">Optional</span> accessibility<wbr>Elements<wbr>Hidden</h3>
 					<div class="tsd-signature tsd-kind-icon">accessibility<wbr>Elements<wbr>Hidden<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">false</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">true</span></div>
 					<aside class="tsd-sources">
-						<p>Inherited from AccessibilityPropsIOS.accessibilityElementsHidden</p>
+						<p>Inherited from <a href="textprops.html">TextProps</a>.<a href="textprops.html#accessibilityelementshidden">accessibilityElementsHidden</a></p>
 						<ul>
-							<li>Defined in /__w/core/core/node_modules/@types/react-native/index.d.ts:2098</li>
+							<li>Defined in node_modules/@types/react-native/index.d.ts:2264</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -175,9 +196,9 @@
 					<h3><span class="tsd-flag ts-flagOptional">Optional</span> accessibility<wbr>Hint</h3>
 					<div class="tsd-signature tsd-kind-icon">accessibility<wbr>Hint<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
-						<p>Inherited from AccessibilityProps.accessibilityHint</p>
+						<p>Inherited from <a href="textprops.html">TextProps</a>.<a href="textprops.html#accessibilityhint">accessibilityHint</a></p>
 						<ul>
-							<li>Defined in /__w/core/core/node_modules/@types/react-native/index.d.ts:2042</li>
+							<li>Defined in node_modules/@types/react-native/index.d.ts:2099</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -191,9 +212,9 @@
 					<h3><span class="tsd-flag ts-flagOptional">Optional</span> accessibility<wbr>Ignores<wbr>Invert<wbr>Colors</h3>
 					<div class="tsd-signature tsd-kind-icon">accessibility<wbr>Ignores<wbr>Invert<wbr>Colors<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">false</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">true</span></div>
 					<aside class="tsd-sources">
-						<p>Inherited from AccessibilityPropsIOS.accessibilityIgnoresInvertColors</p>
+						<p>Inherited from <a href="textprops.html">TextProps</a>.<a href="textprops.html#accessibilityignoresinvertcolors">accessibilityIgnoresInvertColors</a></p>
 						<ul>
-							<li>Defined in /__w/core/core/node_modules/@types/react-native/index.d.ts:2123</li>
+							<li>Defined in node_modules/@types/react-native/index.d.ts:2301</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -212,9 +233,9 @@
 					<h3><span class="tsd-flag ts-flagOptional">Optional</span> accessibility<wbr>Label</h3>
 					<div class="tsd-signature tsd-kind-icon">accessibility<wbr>Label<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
-						<p>Inherited from AccessibilityProps.accessibilityLabel</p>
+						<p>Inherited from <a href="textprops.html">TextProps</a>.<a href="textprops.html#accessibilitylabel">accessibilityLabel</a></p>
 						<ul>
-							<li>Defined in /__w/core/core/node_modules/@types/react-native/index.d.ts:2028</li>
+							<li>Defined in node_modules/@types/react-native/index.d.ts:2086</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -229,9 +250,9 @@
 					<h3><span class="tsd-flag ts-flagOptional">Optional</span> accessibility<wbr>Live<wbr>Region</h3>
 					<div class="tsd-signature tsd-kind-icon">accessibility<wbr>Live<wbr>Region<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"none"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"polite"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"assertive"</span></div>
 					<aside class="tsd-sources">
-						<p>Inherited from AccessibilityPropsAndroid.accessibilityLiveRegion</p>
+						<p>Inherited from <a href="textprops.html">TextProps</a>.<a href="textprops.html#accessibilityliveregion">accessibilityLiveRegion</a></p>
 						<ul>
-							<li>Defined in /__w/core/core/node_modules/@types/react-native/index.d.ts:2076</li>
+							<li>Defined in node_modules/@types/react-native/index.d.ts:2242</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -252,9 +273,9 @@
 					<h3><span class="tsd-flag ts-flagOptional">Optional</span> accessibility<wbr>Role</h3>
 					<div class="tsd-signature tsd-kind-icon">accessibility<wbr>Role<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">AccessibilityRole</span></div>
 					<aside class="tsd-sources">
-						<p>Inherited from AccessibilityProps.accessibilityRole</p>
+						<p>Inherited from <a href="textprops.html">TextProps</a>.<a href="textprops.html#accessibilityrole">accessibilityRole</a></p>
 						<ul>
-							<li>Defined in /__w/core/core/node_modules/@types/react-native/index.d.ts:2033</li>
+							<li>Defined in node_modules/@types/react-native/index.d.ts:2091</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -264,13 +285,13 @@
 					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
-					<a name="accessibilitystates" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagOptional">Optional</span> accessibility<wbr>States</h3>
-					<div class="tsd-signature tsd-kind-icon">accessibility<wbr>States<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">AccessibilityState</span><span class="tsd-signature-symbol">[]</span></div>
+					<a name="accessibilitystate" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> accessibility<wbr>State</h3>
+					<div class="tsd-signature tsd-kind-icon">accessibility<wbr>State<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">AccessibilityState</span></div>
 					<aside class="tsd-sources">
-						<p>Inherited from AccessibilityProps.accessibilityStates</p>
+						<p>Inherited from <a href="textprops.html">TextProps</a>.<a href="textprops.html#accessibilitystate">accessibilityState</a></p>
 						<ul>
-							<li>Defined in /__w/core/core/node_modules/@types/react-native/index.d.ts:2037</li>
+							<li>Defined in node_modules/@types/react-native/index.d.ts:2095</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -284,9 +305,9 @@
 					<h3><span class="tsd-flag ts-flagOptional">Optional</span> accessibility<wbr>Traits</h3>
 					<div class="tsd-signature tsd-kind-icon">accessibility<wbr>Traits<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">AccessibilityTrait</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">AccessibilityTrait</span><span class="tsd-signature-symbol">[]</span></div>
 					<aside class="tsd-sources">
-						<p>Inherited from AccessibilityPropsIOS.accessibilityTraits</p>
+						<p>Inherited from <a href="textprops.html">TextProps</a>.<a href="textprops.html#accessibilitytraits">accessibilityTraits</a></p>
 						<ul>
-							<li>Defined in /__w/core/core/node_modules/@types/react-native/index.d.ts:2105</li>
+							<li>Defined in node_modules/@types/react-native/index.d.ts:2271</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -302,13 +323,51 @@
 					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
+					<a name="accessibilityvalue" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> accessibility<wbr>Value</h3>
+					<div class="tsd-signature tsd-kind-icon">accessibility<wbr>Value<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">AccessibilityValue</span></div>
+					<aside class="tsd-sources">
+						<p>Inherited from <a href="textprops.html">TextProps</a>.<a href="textprops.html#accessibilityvalue">accessibilityValue</a></p>
+						<ul>
+							<li>Defined in node_modules/@types/react-native/index.d.ts:2104</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Represents the current value of a component. It can be a textual description of a component&#39;s value, or for range-based components, such as sliders and progress bars,
+							it contains range information (minimum, current, and maximum).</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
+					<a name="accessibilityviewismodal" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> accessibility<wbr>View<wbr>IsModal</h3>
+					<div class="tsd-signature tsd-kind-icon">accessibility<wbr>View<wbr>IsModal<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">false</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">true</span></div>
+					<aside class="tsd-sources">
+						<p>Inherited from <a href="textprops.html">TextProps</a>.<a href="textprops.html#accessibilityviewismodal">accessibilityViewIsModal</a></p>
+						<ul>
+							<li>Defined in node_modules/@types/react-native/index.d.ts:2277</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>A Boolean value indicating whether VoiceOver should ignore the elements within views that are siblings of the receiver.</p>
+						</div>
+						<dl class="tsd-comment-tags">
+							<dt>platform</dt>
+							<dd><p>ios</p>
+							</dd>
+						</dl>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
 					<a name="accessible" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagOptional">Optional</span> accessible</h3>
 					<div class="tsd-signature tsd-kind-icon">accessible<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">false</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">true</span></div>
 					<aside class="tsd-sources">
-						<p>Inherited from AccessibilityProps.accessible</p>
+						<p>Inherited from <a href="textprops.html">TextProps</a>.<a href="textprops.html#accessible">accessible</a></p>
 						<ul>
-							<li>Defined in /__w/core/core/node_modules/@types/react-native/index.d.ts:2022</li>
+							<li>Defined in node_modules/@types/react-native/index.d.ts:2075</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -323,9 +382,9 @@
 					<h3><span class="tsd-flag ts-flagOptional">Optional</span> adjusts<wbr>Font<wbr>Size<wbr>ToFit</h3>
 					<div class="tsd-signature tsd-kind-icon">adjusts<wbr>Font<wbr>Size<wbr>ToFit<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">false</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">true</span></div>
 					<aside class="tsd-sources">
-						<p>Inherited from TextPropsIOS.adjustsFontSizeToFit</p>
+						<p>Inherited from <a href="textprops.html">TextProps</a>.<a href="textprops.html#adjustsfontsizetofit">adjustsFontSizeToFit</a></p>
 						<ul>
-							<li>Defined in /__w/core/core/node_modules/@types/react-native/index.d.ts:805</li>
+							<li>Defined in node_modules/@types/react-native/index.d.ts:813</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -339,9 +398,9 @@
 					<h3><span class="tsd-flag ts-flagOptional">Optional</span> allow<wbr>Font<wbr>Scaling</h3>
 					<div class="tsd-signature tsd-kind-icon">allow<wbr>Font<wbr>Scaling<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">false</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">true</span></div>
 					<aside class="tsd-sources">
-						<p>Inherited from TextProps.allowFontScaling</p>
+						<p>Inherited from <a href="textprops.html">TextProps</a>.<a href="textprops.html#allowfontscaling">allowFontScaling</a></p>
 						<ul>
-							<li>Defined in /__w/core/core/node_modules/@types/react-native/index.d.ts:843</li>
+							<li>Defined in node_modules/@types/react-native/index.d.ts:851</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -356,9 +415,9 @@
 					<h3><span class="tsd-flag ts-flagOptional">Optional</span> ellipsize<wbr>Mode</h3>
 					<div class="tsd-signature tsd-kind-icon">ellipsize<wbr>Mode<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"head"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"middle"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"tail"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"clip"</span></div>
 					<aside class="tsd-sources">
-						<p>Inherited from TextProps.ellipsizeMode</p>
+						<p>Inherited from <a href="textprops.html">TextProps</a>.<a href="textprops.html#ellipsizemode">ellipsizeMode</a></p>
 						<ul>
-							<li>Defined in /__w/core/core/node_modules/@types/react-native/index.d.ts:862</li>
+							<li>Defined in node_modules/@types/react-native/index.d.ts:870</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -386,9 +445,9 @@
 					<h3><span class="tsd-flag ts-flagOptional">Optional</span> important<wbr>For<wbr>Accessibility</h3>
 					<div class="tsd-signature tsd-kind-icon">important<wbr>For<wbr>Accessibility<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"auto"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"yes"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"no"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"no-hide-descendants"</span></div>
 					<aside class="tsd-sources">
-						<p>Inherited from AccessibilityPropsAndroid.importantForAccessibility</p>
+						<p>Inherited from <a href="textprops.html">TextProps</a>.<a href="textprops.html#importantforaccessibility">importantForAccessibility</a></p>
 						<ul>
-							<li>Defined in /__w/core/core/node_modules/@types/react-native/index.d.ts:2089</li>
+							<li>Defined in node_modules/@types/react-native/index.d.ts:2255</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -409,9 +468,9 @@
 					<h3><span class="tsd-flag ts-flagOptional">Optional</span> line<wbr>Break<wbr>Mode</h3>
 					<div class="tsd-signature tsd-kind-icon">line<wbr>Break<wbr>Mode<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"head"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"middle"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"tail"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"clip"</span></div>
 					<aside class="tsd-sources">
-						<p>Inherited from TextProps.lineBreakMode</p>
+						<p>Inherited from <a href="textprops.html">TextProps</a>.<a href="textprops.html#linebreakmode">lineBreakMode</a></p>
 						<ul>
-							<li>Defined in /__w/core/core/node_modules/@types/react-native/index.d.ts:868</li>
+							<li>Defined in node_modules/@types/react-native/index.d.ts:876</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -426,9 +485,9 @@
 					<h3><span class="tsd-flag ts-flagOptional">Optional</span> max<wbr>Font<wbr>Size<wbr>Multiplier</h3>
 					<div class="tsd-signature tsd-kind-icon">max<wbr>Font<wbr>Size<wbr>Multiplier<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></div>
 					<aside class="tsd-sources">
-						<p>Inherited from TextProps.maxFontSizeMultiplier</p>
+						<p>Inherited from <a href="textprops.html">TextProps</a>.<a href="textprops.html#maxfontsizemultiplier">maxFontSizeMultiplier</a></p>
 						<ul>
-							<li>Defined in /__w/core/core/node_modules/@types/react-native/index.d.ts:919</li>
+							<li>Defined in node_modules/@types/react-native/index.d.ts:927</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -450,9 +509,9 @@
 					<h3><span class="tsd-flag ts-flagOptional">Optional</span> minimum<wbr>Font<wbr>Scale</h3>
 					<div class="tsd-signature tsd-kind-icon">minimum<wbr>Font<wbr>Scale<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
-						<p>Inherited from TextPropsIOS.minimumFontScale</p>
+						<p>Inherited from <a href="textprops.html">TextProps</a>.<a href="textprops.html#minimumfontscale">minimumFontScale</a></p>
 						<ul>
-							<li>Defined in /__w/core/core/node_modules/@types/react-native/index.d.ts:810</li>
+							<li>Defined in node_modules/@types/react-native/index.d.ts:818</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -466,9 +525,9 @@
 					<h3><span class="tsd-flag ts-flagOptional">Optional</span> nativeID</h3>
 					<div class="tsd-signature tsd-kind-icon">nativeID<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
-						<p>Inherited from TextProps.nativeID</p>
+						<p>Inherited from <a href="textprops.html">TextProps</a>.<a href="textprops.html#nativeid">nativeID</a></p>
 						<ul>
-							<li>Defined in /__w/core/core/node_modules/@types/react-native/index.d.ts:911</li>
+							<li>Defined in node_modules/@types/react-native/index.d.ts:919</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -482,9 +541,9 @@
 					<h3><span class="tsd-flag ts-flagOptional">Optional</span> number<wbr>OfLines</h3>
 					<div class="tsd-signature tsd-kind-icon">number<wbr>OfLines<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
-						<p>Inherited from TextProps.numberOfLines</p>
+						<p>Inherited from <a href="textprops.html">TextProps</a>.<a href="textprops.html#numberoflines">numberOfLines</a></p>
 						<ul>
-							<li>Defined in /__w/core/core/node_modules/@types/react-native/index.d.ts:877</li>
+							<li>Defined in node_modules/@types/react-native/index.d.ts:885</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -497,13 +556,50 @@
 					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
+					<a name="onaccessibilityaction" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> on<wbr>Accessibility<wbr>Action</h3>
+					<div class="tsd-signature tsd-kind-icon">on<wbr>Accessibility<wbr>Action<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">AccessibilityActionEvent</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">)</span></div>
+					<aside class="tsd-sources">
+						<p>Inherited from <a href="textprops.html">TextProps</a>.<a href="textprops.html#onaccessibilityaction">onAccessibilityAction</a></p>
+						<ul>
+							<li>Defined in node_modules/@types/react-native/index.d.ts:2109</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>When <code>accessible</code> is true, the system will try to invoke this function when the user performs an accessibility custom action.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
+					<a name="onaccessibilityescape" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> on<wbr>Accessibility<wbr>Escape</h3>
+					<div class="tsd-signature tsd-kind-icon">on<wbr>Accessibility<wbr>Escape<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">)</span></div>
+					<aside class="tsd-sources">
+						<p>Inherited from <a href="textprops.html">TextProps</a>.<a href="textprops.html#onaccessibilityescape">onAccessibilityEscape</a></p>
+						<ul>
+							<li>Defined in node_modules/@types/react-native/index.d.ts:2283</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>When accessibile is true, the system will invoke this function when the user performs the escape gesture (scrub with two fingers).</p>
+						</div>
+						<dl class="tsd-comment-tags">
+							<dt>platform</dt>
+							<dd><p>ios</p>
+							</dd>
+						</dl>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
 					<a name="onaccessibilitytap" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagOptional">Optional</span> on<wbr>Accessibility<wbr>Tap</h3>
-					<div class="tsd-signature tsd-kind-icon">on<wbr>Accessibility<wbr>Tap<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">function</span></div>
+					<div class="tsd-signature tsd-kind-icon">on<wbr>Accessibility<wbr>Tap<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">)</span></div>
 					<aside class="tsd-sources">
-						<p>Inherited from AccessibilityPropsIOS.onAccessibilityTap</p>
+						<p>Inherited from <a href="textprops.html">TextProps</a>.<a href="textprops.html#onaccessibilitytap">onAccessibilityTap</a></p>
 						<ul>
-							<li>Defined in /__w/core/core/node_modules/@types/react-native/index.d.ts:2111</li>
+							<li>Defined in node_modules/@types/react-native/index.d.ts:2289</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -520,11 +616,11 @@
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
 					<a name="onlayout" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagOptional">Optional</span> on<wbr>Layout</h3>
-					<div class="tsd-signature tsd-kind-icon">on<wbr>Layout<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">function</span></div>
+					<div class="tsd-signature tsd-kind-icon">on<wbr>Layout<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">LayoutChangeEvent</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">)</span></div>
 					<aside class="tsd-sources">
-						<p>Inherited from TextProps.onLayout</p>
+						<p>Inherited from <a href="textprops.html">TextProps</a>.<a href="textprops.html#onlayout">onLayout</a></p>
 						<ul>
-							<li>Defined in /__w/core/core/node_modules/@types/react-native/index.d.ts:884</li>
+							<li>Defined in node_modules/@types/react-native/index.d.ts:892</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -537,28 +633,28 @@
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
 					<a name="onlongpress" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagOptional">Optional</span> on<wbr>Long<wbr>Press</h3>
-					<div class="tsd-signature tsd-kind-icon">on<wbr>Long<wbr>Press<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">function</span></div>
+					<div class="tsd-signature tsd-kind-icon">on<wbr>Long<wbr>Press<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">GestureResponderEvent</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">)</span></div>
 					<aside class="tsd-sources">
-						<p>Inherited from TextProps.onLongPress</p>
+						<p>Inherited from <a href="textprops.html">TextProps</a>.<a href="textprops.html#onlongpress">onLongPress</a></p>
 						<ul>
-							<li>Defined in /__w/core/core/node_modules/@types/react-native/index.d.ts:896</li>
+							<li>Defined in node_modules/@types/react-native/index.d.ts:904</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
 						<div class="lead">
 							<p>This function is called on long press.
-							e.g., <code>onLongPress={this.increaseSize}&gt;`</code></p>
+							e.g., `onLongPress={this.increaseSize}&gt;``</p>
 						</div>
 					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
 					<a name="onmagictap" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagOptional">Optional</span> on<wbr>Magic<wbr>Tap</h3>
-					<div class="tsd-signature tsd-kind-icon">on<wbr>Magic<wbr>Tap<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">function</span></div>
+					<div class="tsd-signature tsd-kind-icon">on<wbr>Magic<wbr>Tap<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">)</span></div>
 					<aside class="tsd-sources">
-						<p>Inherited from AccessibilityPropsIOS.onMagicTap</p>
+						<p>Inherited from <a href="textprops.html">TextProps</a>.<a href="textprops.html#onmagictap">onMagicTap</a></p>
 						<ul>
-							<li>Defined in /__w/core/core/node_modules/@types/react-native/index.d.ts:2117</li>
+							<li>Defined in node_modules/@types/react-native/index.d.ts:2295</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -575,11 +671,11 @@
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
 					<a name="onpress" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagOptional">Optional</span> on<wbr>Press</h3>
-					<div class="tsd-signature tsd-kind-icon">on<wbr>Press<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">function</span></div>
+					<div class="tsd-signature tsd-kind-icon">on<wbr>Press<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">GestureResponderEvent</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">)</span></div>
 					<aside class="tsd-sources">
-						<p>Inherited from TextProps.onPress</p>
+						<p>Inherited from <a href="textprops.html">TextProps</a>.<a href="textprops.html#onpress">onPress</a></p>
 						<ul>
-							<li>Defined in /__w/core/core/node_modules/@types/react-native/index.d.ts:890</li>
+							<li>Defined in node_modules/@types/react-native/index.d.ts:898</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -594,9 +690,9 @@
 					<h3><span class="tsd-flag ts-flagOptional">Optional</span> selectable</h3>
 					<div class="tsd-signature tsd-kind-icon">selectable<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">false</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">true</span></div>
 					<aside class="tsd-sources">
-						<p>Inherited from TextPropsAndroid.selectable</p>
+						<p>Inherited from <a href="textprops.html">TextProps</a>.<a href="textprops.html#selectable">selectable</a></p>
 						<ul>
-							<li>Defined in /__w/core/core/node_modules/@types/react-native/index.d.ts:823</li>
+							<li>Defined in node_modules/@types/react-native/index.d.ts:831</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -610,9 +706,9 @@
 					<h3><span class="tsd-flag ts-flagOptional">Optional</span> selection<wbr>Color</h3>
 					<div class="tsd-signature tsd-kind-icon">selection<wbr>Color<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
-						<p>Inherited from TextPropsAndroid.selectionColor</p>
+						<p>Inherited from <a href="textprops.html">TextProps</a>.<a href="textprops.html#selectioncolor">selectionColor</a></p>
 						<ul>
-							<li>Defined in /__w/core/core/node_modules/@types/react-native/index.d.ts:828</li>
+							<li>Defined in node_modules/@types/react-native/index.d.ts:836</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -626,9 +722,9 @@
 					<h3><span class="tsd-flag ts-flagOptional">Optional</span> style</h3>
 					<div class="tsd-signature tsd-kind-icon">style<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">StyleProp</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TextStyle</span><span class="tsd-signature-symbol">&gt;</span></div>
 					<aside class="tsd-sources">
-						<p>Inherited from TextProps.style</p>
+						<p>Inherited from <a href="textprops.html">TextProps</a>.<a href="textprops.html#style">style</a></p>
 						<ul>
-							<li>Defined in /__w/core/core/node_modules/@types/react-native/index.d.ts:901</li>
+							<li>Defined in node_modules/@types/react-native/index.d.ts:909</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -642,10 +738,10 @@
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
 					<a name="styles" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagOptional">Optional</span> styles</h3>
-					<div class="tsd-signature tsd-kind-icon">styles<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">object</span></div>
+					<div class="tsd-signature tsd-kind-icon">styles<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-symbol">{ </span>root<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">TextStyle</span><span class="tsd-signature-symbol"> }</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/BlueBaseJS/core/blob/207da6b7/src/native/Text/Text.tsx#L6">native/Text/Text.tsx:6</a></li>
+							<li>Defined in <a href="https://github.com/BlueBaseJS/core/blob/5ae1de16/src/native/Text/Text.tsx#L7">src/native/Text/Text.tsx:7</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -654,9 +750,9 @@
 					<h3><span class="tsd-flag ts-flagOptional">Optional</span> suppress<wbr>Highlighting</h3>
 					<div class="tsd-signature tsd-kind-icon">suppress<wbr>Highlighting<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">false</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">true</span></div>
 					<aside class="tsd-sources">
-						<p>Inherited from TextPropsIOS.suppressHighlighting</p>
+						<p>Inherited from <a href="textprops.html">TextProps</a>.<a href="textprops.html#suppresshighlighting">suppressHighlighting</a></p>
 						<ul>
-							<li>Defined in /__w/core/core/node_modules/@types/react-native/index.d.ts:816</li>
+							<li>Defined in node_modules/@types/react-native/index.d.ts:824</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -671,9 +767,9 @@
 					<h3><span class="tsd-flag ts-flagOptional">Optional</span> testID</h3>
 					<div class="tsd-signature tsd-kind-icon">testID<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
-						<p>Inherited from TextProps.testID</p>
+						<p>Inherited from <a href="textprops.html">TextProps</a>.<a href="textprops.html#testid">testID</a></p>
 						<ul>
-							<li>Defined in /__w/core/core/node_modules/@types/react-native/index.d.ts:906</li>
+							<li>Defined in node_modules/@types/react-native/index.d.ts:914</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -687,9 +783,9 @@
 					<h3><span class="tsd-flag ts-flagOptional">Optional</span> text<wbr>Break<wbr>Strategy</h3>
 					<div class="tsd-signature tsd-kind-icon">text<wbr>Break<wbr>Strategy<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"simple"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"highQuality"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"balanced"</span></div>
 					<aside class="tsd-sources">
-						<p>Inherited from TextPropsAndroid.textBreakStrategy</p>
+						<p>Inherited from <a href="textprops.html">TextProps</a>.<a href="textprops.html#textbreakstrategy">textBreakStrategy</a></p>
 						<ul>
-							<li>Defined in /__w/core/core/node_modules/@types/react-native/index.d.ts:834</li>
+							<li>Defined in node_modules/@types/react-native/index.d.ts:842</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -717,6 +813,9 @@
 						<a href="textprops.html" class="tsd-kind-icon">Text<wbr>Props</a>
 						<ul>
 							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
+								<a href="textprops.html#accessibilityactions" class="tsd-kind-icon">accessibility<wbr>Actions</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
 								<a href="textprops.html#accessibilitycomponenttype" class="tsd-kind-icon">accessibility<wbr>Component<wbr>Type</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
@@ -738,10 +837,16 @@
 								<a href="textprops.html#accessibilityrole" class="tsd-kind-icon">accessibility<wbr>Role</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
-								<a href="textprops.html#accessibilitystates" class="tsd-kind-icon">accessibility<wbr>States</a>
+								<a href="textprops.html#accessibilitystate" class="tsd-kind-icon">accessibility<wbr>State</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
 								<a href="textprops.html#accessibilitytraits" class="tsd-kind-icon">accessibility<wbr>Traits</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
+								<a href="textprops.html#accessibilityvalue" class="tsd-kind-icon">accessibility<wbr>Value</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
+								<a href="textprops.html#accessibilityviewismodal" class="tsd-kind-icon">accessibility<wbr>View<wbr>IsModal</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
 								<a href="textprops.html#accessible" class="tsd-kind-icon">accessible</a>
@@ -772,6 +877,12 @@
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
 								<a href="textprops.html#numberoflines" class="tsd-kind-icon">number<wbr>OfLines</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
+								<a href="textprops.html#onaccessibilityaction" class="tsd-kind-icon">on<wbr>Accessibility<wbr>Action</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
+								<a href="textprops.html#onaccessibilityescape" class="tsd-kind-icon">on<wbr>Accessibility<wbr>Escape</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
 								<a href="textprops.html#onaccessibilitytap" class="tsd-kind-icon">on<wbr>Accessibility<wbr>Tap</a>
@@ -823,65 +934,37 @@
 		<h2>Legend</h2>
 		<div class="tsd-legend-group">
 			<ul class="tsd-legend">
-				<li class="tsd-kind-module"><span class="tsd-kind-icon">Module</span></li>
-				<li class="tsd-kind-object-literal"><span class="tsd-kind-icon">Object literal</span></li>
-				<li class="tsd-kind-variable"><span class="tsd-kind-icon">Variable</span></li>
-				<li class="tsd-kind-function"><span class="tsd-kind-icon">Function</span></li>
-				<li class="tsd-kind-function tsd-has-type-parameter"><span class="tsd-kind-icon">Function with type parameter</span></li>
-				<li class="tsd-kind-index-signature"><span class="tsd-kind-icon">Index signature</span></li>
-				<li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
-			</ul>
-			<ul class="tsd-legend">
-				<li class="tsd-kind-enum"><span class="tsd-kind-icon">Enumeration</span></li>
-				<li class="tsd-kind-enum-member"><span class="tsd-kind-icon">Enumeration member</span></li>
-				<li class="tsd-kind-property tsd-parent-kind-enum"><span class="tsd-kind-icon">Property</span></li>
-				<li class="tsd-kind-method tsd-parent-kind-enum"><span class="tsd-kind-icon">Method</span></li>
-			</ul>
-			<ul class="tsd-legend">
-				<li class="tsd-kind-interface"><span class="tsd-kind-icon">Interface</span></li>
-				<li class="tsd-kind-interface tsd-has-type-parameter"><span class="tsd-kind-icon">Interface with type parameter</span></li>
-				<li class="tsd-kind-constructor tsd-parent-kind-interface"><span class="tsd-kind-icon">Constructor</span></li>
-				<li class="tsd-kind-property tsd-parent-kind-interface"><span class="tsd-kind-icon">Property</span></li>
-				<li class="tsd-kind-method tsd-parent-kind-interface"><span class="tsd-kind-icon">Method</span></li>
-				<li class="tsd-kind-index-signature tsd-parent-kind-interface"><span class="tsd-kind-icon">Index signature</span></li>
-			</ul>
-			<ul class="tsd-legend">
-				<li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
-				<li class="tsd-kind-class tsd-has-type-parameter"><span class="tsd-kind-icon">Class with type parameter</span></li>
 				<li class="tsd-kind-constructor tsd-parent-kind-class"><span class="tsd-kind-icon">Constructor</span></li>
 				<li class="tsd-kind-property tsd-parent-kind-class"><span class="tsd-kind-icon">Property</span></li>
 				<li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
-				<li class="tsd-kind-accessor tsd-parent-kind-class"><span class="tsd-kind-icon">Accessor</span></li>
-				<li class="tsd-kind-index-signature tsd-parent-kind-class"><span class="tsd-kind-icon">Index signature</span></li>
 			</ul>
 			<ul class="tsd-legend">
 				<li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited constructor</span></li>
 				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited property</span></li>
 				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited method</span></li>
-				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited accessor</span></li>
 			</ul>
 			<ul class="tsd-legend">
 				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected property</span></li>
 				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected method</span></li>
-				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected accessor</span></li>
 			</ul>
 			<ul class="tsd-legend">
 				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private property</span></li>
 				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private method</span></li>
-				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private accessor</span></li>
 			</ul>
 			<ul class="tsd-legend">
 				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static property</span></li>
-				<li class="tsd-kind-call-signature tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static method</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-interface"><span class="tsd-kind-icon">Property</span></li>
 			</ul>
 		</div>
 	</div>
 </footer>
 <div class="container tsd-generator">
-	<p>Generated using <a href="http://typedoc.org/" target="_blank">TypeDoc</a></p>
+	<p>Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a></p>
 </div>
 <div class="overlay"></div>
 <script src="../assets/js/main.js"></script>
-<script>if (location.protocol == 'file:') document.write('<script src="../assets/js/search.js"><' + '/script>');</script>
 </body>
 </html>
