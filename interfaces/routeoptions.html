@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>FilterRegistryItemProps | @bluebase/core</title>
+	<title>RouteOptions | @bluebase/core</title>
 	<meta name="description" content="Documentation for @bluebase/core">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
@@ -56,39 +56,23 @@
 					<a href="../globals.html">Globals</a>
 				</li>
 				<li>
-					<a href="filterregistryitemprops.html">FilterRegistryItemProps</a>
+					<a href="routeoptions.html">RouteOptions</a>
 				</li>
 			</ul>
-			<h1>Interface FilterRegistryItemProps</h1>
+			<h1>Interface RouteOptions</h1>
 		</div>
 	</div>
 </header>
 <div class="container container-main">
 	<div class="row">
 		<div class="col-8 col-content">
-			<section class="tsd-panel tsd-comment">
-				<div class="tsd-comment tsd-typography">
-					<div class="lead">
-						<p>Properties of a Filter item.</p>
-					</div>
-				</div>
-			</section>
 			<section class="tsd-panel tsd-hierarchy">
 				<h3>Hierarchy</h3>
 				<ul class="tsd-hierarchy">
 					<li>
-						<span class="target">FilterRegistryItemProps</span>
+						<span class="target">RouteOptions</span>
 					</li>
 				</ul>
-			</section>
-			<section class="tsd-panel tsd-kind-interface">
-				<h3 class="tsd-before-signature">Indexable</h3>
-				<div class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">[</span>key: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">]: </span><span class="tsd-signature-type">any</span></div>
-				<div class="tsd-comment tsd-typography">
-					<div class="lead">
-						<p>Properties of a Filter item.</p>
-					</div>
-				</div>
 			</section>
 			<section class="tsd-panel-group tsd-index-group">
 				<h2>Index</h2>
@@ -97,8 +81,9 @@
 						<section class="tsd-index-section ">
 							<h3>Properties</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="filterregistryitemprops.html#event" class="tsd-kind-icon">event</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="filterregistryitemprops.html#priority" class="tsd-kind-icon">priority</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="routeoptions.html#bb" class="tsd-kind-icon">BB</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="routeoptions.html#intl" class="tsd-kind-icon">intl</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="routeoptions.html#theme" class="tsd-kind-icon">theme</a></li>
 							</ul>
 						</section>
 					</div>
@@ -107,39 +92,34 @@
 			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Properties</h2>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="event" class="tsd-anchor"></a>
-					<h3>event</h3>
-					<div class="tsd-signature tsd-kind-icon">event<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<a name="bb" class="tsd-anchor"></a>
+					<h3>BB</h3>
+					<div class="tsd-signature tsd-kind-icon">BB<span class="tsd-signature-symbol">:</span> <a href="../classes/bluebase.html" class="tsd-signature-type">BlueBase</a></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/BlueBaseJS/core/blob/73b0d7a6/src/registries/FilterRegistry.ts#L61">src/registries/FilterRegistry.ts:61</a></li>
+							<li>Defined in <a href="https://github.com/BlueBaseJS/core/blob/73b0d7a6/src/registries/PluginRegistry.ts#L41">src/registries/PluginRegistry.ts:41</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<div class="lead">
-							<p>ID of event to subscribe to</p>
-						</div>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="priority" class="tsd-anchor"></a>
-					<h3>priority</h3>
-					<div class="tsd-signature tsd-kind-icon">priority<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<a name="intl" class="tsd-anchor"></a>
+					<h3>intl</h3>
+					<div class="tsd-signature tsd-kind-icon">intl<span class="tsd-signature-symbol">:</span> <a href="intlcontextdata.html" class="tsd-signature-type">IntlContextData</a></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/BlueBaseJS/core/blob/73b0d7a6/src/registries/FilterRegistry.ts#L56">src/registries/FilterRegistry.ts:56</a></li>
+							<li>Defined in <a href="https://github.com/BlueBaseJS/core/blob/73b0d7a6/src/registries/PluginRegistry.ts#L42">src/registries/PluginRegistry.ts:42</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<div class="lead">
-							<p>Priority of exeuction.</p>
-						</div>
-						<dl class="tsd-comment-tags">
-							<dt>default</dt>
-							<dd><p>10</p>
-							</dd>
-						</dl>
-					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="theme" class="tsd-anchor"></a>
+					<h3>theme</h3>
+					<div class="tsd-signature tsd-kind-icon">theme<span class="tsd-signature-symbol">:</span> <a href="../classes/theme.html" class="tsd-signature-type">Theme</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/BlueBaseJS/core/blob/73b0d7a6/src/registries/PluginRegistry.ts#L43">src/registries/PluginRegistry.ts:43</a></li>
+						</ul>
+					</aside>
 				</section>
 			</section>
 		</div>
@@ -156,13 +136,16 @@
 				</ul>
 				<ul class="current">
 					<li class="current tsd-kind-interface">
-						<a href="filterregistryitemprops.html" class="tsd-kind-icon">Filter<wbr>Registry<wbr>Item<wbr>Props</a>
+						<a href="routeoptions.html" class="tsd-kind-icon">Route<wbr>Options</a>
 						<ul>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="filterregistryitemprops.html#event" class="tsd-kind-icon">event</a>
+								<a href="routeoptions.html#bb" class="tsd-kind-icon">BB</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="filterregistryitemprops.html#priority" class="tsd-kind-icon">priority</a>
+								<a href="routeoptions.html#intl" class="tsd-kind-icon">intl</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="routeoptions.html#theme" class="tsd-kind-icon">theme</a>
 							</li>
 						</ul>
 					</li>
