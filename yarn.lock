@@ -4234,10 +4234,10 @@
     "@types/react" "*"
     "@types/webpack" "*"
 
-"@types/react-native@~0.62.13":
-  version "0.62.18"
-  resolved "https://registry.yarnpkg.com/@types/react-native/-/react-native-0.62.18.tgz#ad63691e7c44edef2beeb6af52b2eb942c3ed8a1"
-  integrity sha512-7QfU8EzIYxYqeXpPf8QNv2xi8hrePlgTbRATRo+plRSdVfJu7N6sAXqrFxKJp6bGLvp82GV1gczl93gqiAfXPA==
+"@types/react-native@~0.64.12":
+  version "0.64.12"
+  resolved "https://registry.yarnpkg.com/@types/react-native/-/react-native-0.64.12.tgz#1c6a3226c26d7a5949cdf8878e6cfe95fe0951d6"
+  integrity sha512-sw6WGSaL219zqrgdb4kQUtFB9iGXC/LmecLZ+UUWEgwYvD0YH81FqWYmONa2HuTkOFAsxu2bK4DspkWRUHIABQ==
   dependencies:
     "@types/react" "*"
 
@@ -4262,15 +4262,7 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react@*":
-  version "16.9.2"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.9.2.tgz#6d1765431a1ad1877979013906731aae373de268"
-  integrity sha512-jYP2LWwlh+FTqGd9v7ynUKZzjj98T8x7Yclz479QdRhHfuW9yQ+0jjnD31eXSXutmBpppj5PYNLYLRfnZJvcfg==
-  dependencies:
-    "@types/prop-types" "*"
-    csstype "^2.2.0"
-
-"@types/react@~16.9.41":
+"@types/react@*", "@types/react@~16.9.41":
   version "16.9.43"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-16.9.43.tgz#c287f23f6189666ee3bebc2eb8d0f84bcb6cdb6b"
   integrity sha512-PxshAFcnJqIWYpJbLPriClH53Z2WlJcVZE+NP2etUtWQs2s7yIMj3/LDKZT/5CHJ/F62iyjVCDu2H3jHEXIxSg==
